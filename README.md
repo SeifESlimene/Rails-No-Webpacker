@@ -37,3 +37,10 @@ Steps :
 5 - open app/views/layouts/application.html.erb and add the following line :
 <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 6 - remove lines with javascript_pack_tag
+
+Add Frontend Part (Create-react-app) :
+
+1 - npx create-react-app frontend
+2 - echo 'PORT=3001' > frontend/.env
+3 - cd frontend
+4 - npm start
